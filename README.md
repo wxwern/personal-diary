@@ -4,8 +4,8 @@ Simple and Easy to Use diary app.
 
 ## Information
 
-[Official Webpage](https://www.wernjie.com/personal-diary/)
-[Changelog](CHANGELOG.md)
+- [Official Webpage](https://www.wernjie.com/personal-diary/)
+- [Changelog](CHANGELOG.md)
 
 Note: This repository is for issue tracking purposes, and for hosting of macOS stable and beta releases. It does not contain the source code for Personal Diary.
 
