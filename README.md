@@ -11,14 +11,31 @@ Note: This repository is for issue tracking purposes, and for hosting of macOS s
 
 ## Downloads
 ### Stable Release
-- [App Store (iOS, iPadOS, watchOS)](https://apps.apple.com/app/personal-diary-journal-app/id1052570257)
-- Homebrew (macOS):
-    + `brew install wernjie/formulae/personal-diary` (WIP, not yet available)
+
+Recommended:
+- **App Store (iOS, iPadOS, watchOS)**
+    + https://apps.apple.com/app/personal-diary-journal-app/id1052570257
+
+Alternatives:
+- **Homebrew (macOS):**
+    + [No releases yet]
+- **Manual Download (macOS):**
+    + [No releases yet]
 
 ### Beta Release
-- [TestFlight (iOS, iPadOS, watchOS)](https://testflight.apple.com/join/vGSyL9K7)
-- Homebrew (macOS):
-    + `brew install wernjie/formulae/personal-diary-beta` (WIP, not yet available)
+
+Beta releases are inherently unstable. Please backup your data before trying them out.
+
+Recommended:
+- **TestFlight (iOS, iPadOS, watchOS):**
+    + https://testflight.apple.com/join/vGSyL9K7
+- **Homebrew (macOS):**
+    + `brew cask install wernjie/formulae/personal-diary-beta`
+
+Alternatives:
+- **Manual Download (macOS):**
+    + https://github.com/wernjie/personal-diary/releases
+    + Downloading from here is not recommended as autoupdate functionality is not present within the app.
 
 ## Contributing
 - You should only report issues regarding the functionality and usability of the app (i.e. bugs, feature requests etc).

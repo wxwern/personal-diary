@@ -3,7 +3,7 @@ Changelog for all public releases (and the most recent beta) of Personal Diary.
 
 ### Version 2.5.11
 - Updated with support for the latest iOS, iPadOS, and watchOS versions.
-- The app is now internally compatible with macOS 10.15 or later (not released yet).
+- The app is now available in beta on macOS 10.15 or later.
 - Added mouse and trackpad support, suited for iPadOS and macOS.
 - Increased default font sizes and switched displayed font to Arial.
 - Fixed an issue where formatted text on PDF exports have a 62.5% chance of being missing or corrupted.
