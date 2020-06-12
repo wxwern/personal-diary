@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Personal Diary</h1>
-  <img src="assets/icon.png" alt="Personal Diary logo" height="128" style="margin: 8px; border-radius: 32px;">
+  <img src="assets/icon_rounded.png" alt="Personal Diary logo" height="162">
   <br>
   <a href="https://apps.apple.com/app/personal-diary-journal-app/id1052570257"><img src="assets/Download_on_the_App_Store.svg" alt="Download on the App Store" height="54"></a>
   <p>
