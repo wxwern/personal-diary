@@ -40,7 +40,7 @@ Notable Features:
 - Ability to choose the weather of the day.
 - Mood & Weather can be automatically chosen.
 - Import photos to your entries.
-- Notifications to remind you to write in your diary.
+- Notifications to remind you to write in your diary daily.
 - Smart Search - look for stuff with intelligent search.
 - Select a theme of your liking.
 - Dark Mode for better night use.
@@ -51,7 +51,6 @@ Notable Features:
 - Siri Shortcuts and Integration (experimental).
 - Full-fledged Apple Watch app, with ability to browse a mini-Timeline, and add or edit entries.
 - FlickType keyboard integration in the Apple Watch app, allowing for a faster and more convenient typing experience on your wrist.
-- Daily Notifications for writing in your diary.
 - NO Ads & absolutely FREE! :D
 
 \* All Apple OSes supported include: iOS, iPadOS, macOS and watchOS. The macOS version of the app is in beta. It does not make sense to have a tvOS version of Personal Diary.
