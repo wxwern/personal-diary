@@ -1,5 +1,14 @@
 ## CHANGELOG
-Changelog for all public releases (and the most recent beta) of Personal Diary.
+Changelog for all stable releases (and the most recent beta) of Personal Diary.
+
+### Version 2.6 beta 1
+- Added the option to insert images and export via the Files app on iOS/iPadOS and Finder on macOS.
+- Fixed an issue where importing data does not work on macOS.
+- Resolves an issue where selecteing the "Export or Print Data" option in Personal Diary settings will crash the app when low on storage.
+- Navigation bar colors are now more consistent throughout the app.
+- Added basic menu bar items on the macOS version of the app.
+- Fixed a bug where the app continuously refreshes the view waiting for theme changes and wasting resources.
+- Updated App Support & Information page.
 
 ### Version 2.5.11
 - Updated with support for the latest iOS, iPadOS, and watchOS versions.
