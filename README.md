@@ -15,7 +15,7 @@
 
 This repository is for issue tracking purposes, and for hosting of macOS stable and beta releases. It does not contain the source code for Personal Diary.
 
-**Contents**
+**Shortcuts**
 
 - [Official Webpage](https://www.wernjie.com/personal-diary/)
 - [Description](#description)
@@ -23,6 +23,7 @@ This repository is for issue tracking purposes, and for hosting of macOS stable 
     + [Stable Release](#stable-release)
     + [Beta Release](#beta-release)
 - [Changelog](CHANGELOG.md)
+- [Frequently Asked Questions](FAQ.md)
 - [Contributing](#contributing)
 
 ## Description
@@ -86,6 +87,10 @@ Alternatives:
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md).
+
+## Frequently Asked Questions
+
+See [FAQ.md](FAQ.md).
 
 ## Contributing
 - You should only report issues regarding the functionality and usability of the app (i.e. bugs, feature requests etc).
