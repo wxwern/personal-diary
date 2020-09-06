@@ -1,6 +1,16 @@
 ## CHANGELOG
 Changelog for all stable releases (and the most recent beta) of Personal Diary.
 
+### Version 2.6 beta 2
+- Added image reordering support, so you can now reorder images within an entry with a simple drag.
+- Added drag and drop support - on iPadOS and macOS, you can now drag and drop images directly into the Images panel.
+- If you're using the add button to insert images, they are now correctly added in the order they were added in.
+- Resolves an issue in v2.6 beta 1 where swiping between images will crash the app.
+- Added the ability to choose export date range for bulk exports.
+- PDF Exports (in bulk) can now be customized.
+- Added an option to disable grouping by month for PDF exports and Printing, which may cause exports to halt completely for large diaries on older devices.
+- Updated some troubleshooting prompts.
+
 ### Version 2.6 beta 1
 - Added the option to insert images and export via the Files app on iOS/iPadOS and Finder on macOS.
 - Fixed an issue where importing data does not work on macOS.
