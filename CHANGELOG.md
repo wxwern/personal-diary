@@ -10,17 +10,13 @@ Changelog for all stable releases (and the most recent beta) of Personal Diary.
 - Added experimental multi-journal switching support, allowing you to switch between different books or profiles. To try it out, enable it in Experimental Features.
 - Warning: Legacy entries (entries created on v2.4.30 and older) may not load automatically. If you experience issues loading old entries, run Recovery Mode's "Data Loss/Corruption Recovery", it'll autodetect and convert any leftover legacy entries.
 
-### Version 2.6 beta 2
+Previous betas:
 - Added image reordering support, so you can now reorder images within an entry with a simple drag.
 - Added drag and drop support - on iPadOS and macOS, you can now drag and drop images directly into the Images panel.
 - If you're using the add button to insert images, they are now correctly added in the order they were added in.
-- Resolves an issue in v2.6 beta 1 where swiping between images will crash the app.
 - Added the ability to choose export date range for bulk exports.
 - PDF Exports (in bulk) can now be customized.
 - Added an option to disable grouping by month for PDF exports and Printing, which may cause exports to halt completely for large diaries on older devices.
-- Updated some troubleshooting prompts.
-
-### Version 2.6 beta 1
 - Added the option to insert images and export via the Files app on iOS/iPadOS and Finder on macOS.
 - Fixed an issue where importing data does not work on macOS.
 - Resolves an issue where selecteing the "Export or Print Data" option in Personal Diary settings will crash the app when low on storage.
@@ -28,6 +24,7 @@ Changelog for all stable releases (and the most recent beta) of Personal Diary.
 - Added basic menu bar items on the macOS version of the app.
 - Fixed a bug where the app continuously refreshes the view waiting for theme changes and wasting resources.
 - Updated App Support & Information page.
+- Updated some troubleshooting prompts.
 
 ### Version 2.5.11
 - Updated with support for the latest iOS, iPadOS, and watchOS versions.
