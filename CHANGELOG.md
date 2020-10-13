@@ -1,26 +1,19 @@
 ## CHANGELOG
 Changelog for all stable releases (and the most recent beta) of Personal Diary.
 
-### Version 2.6 beta 5
-- Fixed an issue on iOS 14, iPadOS 14 and macOS Big Sur where your data on iCloud does not automatically download.
-- Resolved a bug on iOS 14, iPadOS 14 and macOS Big Sur where images are stubborn and can never be downloaded, no matter what you do.
-- Image reordering works only on iOS 11 and later at the moment.
-- Patched an issue on version 2.6 beta 3 where the Journal Picker doesn't work.
-- Updated UI for mood, weather and date selector for an entry on iPad and macOS.
-- The Timeline should now be more responsive, especially on macOS.
-- Fixed some issues with prompts provided by Recovery Mode.
-- Personal Diary's Mac App Icon is updated for macOS Big Sur.
-
-Previous betas:
+### Version 2.6
+- Personal Diary is now available on macOS 10.15 and later.
 - Optimized for iOS 14, iPadOS 14 and watchOS 7.
+- Fixed an issue on iOS and iPadOS 14 where your data on iCloud does not automatically download.
+- Resolved a bug on iOS and iPadOS 14 where images are stubborn and can never be downloaded, no matter what you do.
+- Updated UI for mood, weather and date selector for an entry on iPad and macOS.
+- Added image reordering support, so you can now reorder images within an entry with a simple drag.
+- Image reordering works only on iOS 11 and later at the moment.
+- If you're using the add button to insert images, they are now correctly added in the order they were added in.
 - Updated Settings UI on iOS 13, iPadOS 13, macOS 10.15 and later, so it now appears as a pop up window rather than a full screen page.
-- Updated watchOS FlickType SDK. Now, you can type your entries on your watch more efficiently than ever - with swipe-typing, custom character input and more, all from your wrist!
-- Personal Diary for watchOS now works with the FlickType watch app on watchOS 7, so FlickType can now update separately from Personal Diary app, and custom FlickType settings automatically work.
 - Fixed an issue where the app may freeze for a second or two on large journals every single time you enter the Timeline, especially on older iOS, iPadOS and macOS devices.
 - Added experimental multi-journal switching support, allowing you to switch between different books or profiles. To try it out, enable it in Experimental Features.
-- Added image reordering support, so you can now reorder images within an entry with a simple drag.
 - Added drag and drop support - on iPadOS and macOS, you can now drag and drop images directly into the Images panel.
-- If you're using the add button to insert images, they are now correctly added in the order they were added in.
 - Added the ability to choose export date range for bulk exports.
 - PDF Exports (in bulk) can now be customized.
 - Added an option to disable grouping by month for PDF exports and Printing, which may cause exports to halt completely for large diaries on older devices.
@@ -28,8 +21,10 @@ Previous betas:
 - Fixed an issue where importing data does not work on macOS.
 - Resolves an issue where selecteing the "Export or Print Data" option in Personal Diary settings will crash the app when low on storage.
 - Navigation bar colors are now more consistent throughout the app.
-- Added basic menu bar items on the macOS version of the app.
 - Fixed a bug where the app continuously refreshes the view waiting for theme changes and wasting resources.
+- Updated watchOS FlickType SDK. Now, you can type your entries on your watch more efficiently than ever - with swipe-typing, custom character input and more, all from your wrist!
+- Personal Diary for watchOS now works with the FlickType watch app on watchOS 7, so FlickType can now update separately from Personal Diary app, and custom FlickType settings automatically work.
+- Fixed some issues with prompts provided by Recovery Mode.
 - Updated App Support & Information page.
 - Updated some troubleshooting prompts.
 
