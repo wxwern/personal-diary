@@ -7,9 +7,11 @@
     <strong>Simple and Easy To Use</strong> Journalling App
   </p>
   <p>
-    Available on iOS, iPadOS, macOS<sup>(beta)</sup> and watchOS
+    Available on iOS, iPadOS, macOS and watchOS
   </p>
 </div>
+
+The macOS app is currently being reviewed by Apple, and will be available soon on the Mac App Store.
 
 ---
 
@@ -60,14 +62,16 @@ Notable Features:
 ### Stable Release
 
 Recommended:
-- **App Store (iOS, iPadOS, watchOS)**
+- **App Store (iOS, iPadOS, macOS, watchOS)**
     + https://apps.apple.com/app/personal-diary-journal-app/id1052570257
+    + The macOS version is currently being reviewed by Apple and will be available soon.
 
 Alternatives:
 - **Homebrew (macOS):**
-    + [No releases yet]
+    + `brew cask install wernjie/formulae/personal-diary`
 - **Manual Download (macOS):**
-    + [No releases yet]
+    + https://github.com/wernjie/personal-diary/releases
+    + Downloading from here is not recommended as autoupdate functionality is not present within the app.
 
 ### Beta Release
 
