@@ -11,8 +11,6 @@
   </p>
 </div>
 
-The macOS app is currently being reviewed by Apple, and will be available soon on the Mac App Store.
-
 ---
 
 This repository is for issue tracking purposes, and for hosting of macOS stable and beta releases. It does not contain the source code for Personal Diary.
@@ -64,7 +62,6 @@ Notable Features:
 Recommended:
 - **App Store (iOS, iPadOS, macOS, watchOS)**
     + https://apps.apple.com/app/personal-diary-journal-app/id1052570257
-    + The macOS version is currently being reviewed by Apple and will be available soon.
 
 Alternatives:
 - **Homebrew (macOS):**
