@@ -1,6 +1,11 @@
 ## CHANGELOG
 Changelog for all stable releases (and the most recent beta) of Personal Diary.
 
+### Version 2.6.1
+- Fixed an issue where scrolling may not work while editing an Entry.
+- Added an edit button in the Entry page that provides hints on how you can edit all aspects of an entry.
+- Added an indicator on macOS to use 'esc' to finish typing when Focused Editing Mode is enabled in Personal Diary settings.
+
 ### Version 2.6
 - Personal Diary is now available on macOS 10.15 and later.
 - Optimized for iOS 14, iPadOS 14 and watchOS 7.
