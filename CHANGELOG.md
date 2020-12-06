@@ -1,6 +1,21 @@
 ## CHANGELOG
 Changelog for all stable releases (and the most recent beta) of Personal Diary.
 
+### Version 2.6.2
+- Added support for iOS 14.2, iPadOS 14.2, and macOS Big Sur.
+- Personal Diary is now a Universal Mac app, supporting Macs with Apple Silicon natively.
+- Resolved an issue where passcode screen may not block the entire app.
+- Patches a bug where the search bar is invisible in dark mode on macOS.
+- Re-added the button to export images which went missing in the last update.
+- Fixes a bug where exporting might miss out on the latest entry.
+- Fixes an issue where printing cannot be done on the Mac app.
+- Fixes an issue where the search bar does not take in spaces when typing with a physical keyboard.
+- Significantly improved responsiveness and performance of the Timeline for large diaries with more than half a thousand entries.
+- Fixes an issue where resizing the window while in the Timeline pane on macOS may cause the app to freeze for a few seconds.
+- Reduced some AI functionality temporarily as it was discovered to be causing too much of a hit in performance.
+- Improved app performance on macOS Big Sur.
+- Reduced data export size limits.
+
 ### Version 2.6.1
 - Fixed an issue where scrolling may not work while editing an Entry.
 - Patched a bug where pasting content might cause erroneous auto-scrolling.

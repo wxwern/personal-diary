@@ -65,7 +65,7 @@ Recommended:
 
 Alternatives:
 - **Homebrew (macOS):**
-    + `brew cask install wernjie/formulae/personal-diary`
+    + `brew install wernjie/formulae/personal-diary`
 - **Manual Download (macOS):**
     + https://github.com/wernjie/personal-diary/releases
     + Downloading from here is not recommended as autoupdate functionality is not present within the app.
@@ -78,7 +78,7 @@ Recommended:
 - **TestFlight (iOS, iPadOS, watchOS):**
     + https://testflight.apple.com/join/vGSyL9K7
 - **Homebrew (macOS):**
-    + `brew cask install wernjie/formulae/personal-diary-beta`
+    + `brew install wernjie/formulae/personal-diary-beta`
 
 Alternatives:
 - **Manual Download (macOS):**
