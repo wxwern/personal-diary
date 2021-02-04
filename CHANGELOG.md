@@ -1,6 +1,16 @@
 ## CHANGELOG
 Changelog for all stable releases (and the most recent beta) of Personal Diary.
 
+### Version 2.6.3
+- Fixes an issue where content auto-scrolls back to the cursor while editing in an entry on macOS.
+- Resolves an issue where the passcode screen may be prompted twice.
+- Passcode input when using VoiceOver now follows VoiceOver settings and input methods set up.
+- Entry configuration page has improved VoiceOver navigation.
+- The app now blurs the screen in addition to locking itself when navigating away from the app (if a passcode is set) on iOS/iPadOS.
+- Multi-journal support (experimental) improvements - now in a fully usable state with hierarchal navigation, plus proper VoiceOver compatibility.
+
+Note: On macOS, the app's settings page window in this release may glitch out and be quite small, which was why this macOS release is delayed compared to iOS/iPadOS/watchOS. This version is released anyway to resolve more severe usability problems, and the settings page will be resolved in a future update.
+
 ### Version 2.6.2
 - Added support for iOS 14.2, iPadOS 14.2, and macOS Big Sur.
 - Personal Diary is now a Universal Mac app, supporting Macs with Apple Silicon natively.
