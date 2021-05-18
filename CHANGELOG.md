@@ -1,6 +1,15 @@
 ## CHANGELOG
 Changelog for all stable releases (and the most recent beta) of Personal Diary.
 
+### Version 2.6.5 beta 1
+- Fixes an issue where content auto-scrolls back to the cursor while editing in an entry on macOS (again).
+- Resolves an issue where if Dark Theme is set to Auto, it may not work correctly on macOS, where it randomly switches to Dark Mode even in undesired situations.
+- Updated minimum window size on macOS.
+- Fixed settings window size being unnecessarily tiny on macOS.
+- Fixed a bug where long footer text is truncated in the settings window and submenus, causing one to be unable to read the text in its entirely.
+- Improved password recovery identity verification process, with many bug fixes and accuracy improvements.
+- Stopped unnecessary background updates for dark mode, so the app should now not waste as much power doing nothing.
+
 ### Version 2.6.3
 - Fixes an issue where content auto-scrolls back to the cursor while editing in an entry on macOS.
 - Resolves an issue where the passcode screen may be prompted twice.
