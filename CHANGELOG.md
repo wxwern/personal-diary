@@ -1,7 +1,15 @@
 ## CHANGELOG
 Changelog for all stable releases (and the most recent beta) of Personal Diary.
 
-### Version 2.6.5 beta 1
+### Version 2.6.6
+This is likely to be the last bug fix update before version 3.0, which will involve a rewrite of the full codebase to make it easier to include new functionality as many of you have requested.
+
+Right now, this build provides the following changes:
+- Updated to work with the latest iPhone, iPad and MacBooks.
+- Minor UI behaviour patches in an entry.
+- Improved diary reminder notification handling.
+
+### Version 2.6.5
 - Fixes an issue where content auto-scrolls back to the cursor while editing in an entry on macOS (again).
 - Resolves an issue where if Dark Theme is set to Auto, it may not work correctly on macOS, where it randomly switches to Dark Mode even in undesired situations.
 - Updated minimum window size on macOS.
