@@ -75,12 +75,12 @@ Alternatives:
 Beta releases are inherently unstable. Please backup your data before trying them out.
 
 Recommended:
-- **TestFlight (iOS, iPadOS, watchOS):**
+- **TestFlight (iOS, iPadOS, macOS, watchOS):**
     + https://testflight.apple.com/join/vGSyL9K7
-- **Homebrew (macOS):**
-    + `brew install wernjie/formulae/personal-diary-beta`
 
 Alternatives:
+- **Homebrew (macOS):**
+    + `brew install wernjie/formulae/personal-diary-beta`
 - **Manual Download (macOS):**
     + https://github.com/wernjie/personal-diary/releases
     + Downloading from here is not recommended as autoupdate functionality is not present within the app.
