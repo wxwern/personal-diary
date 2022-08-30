@@ -1,6 +1,63 @@
 ## CHANGELOG
 Changelog for all stable releases (and the most recent beta) of Personal Diary.
 
+### Version 3.0 Beta 2
+Changes since last build:
+- A new calendar in the Timeline can now show at-a-glance info of your past in-app activity and faster navigation.
+- The new Timeline-Entry Split View is disabled by default if VoiceOver is active, unless overriden in the past.
+- Improved VoiceOver handling and focus of certain elements.
+- Improved handling of background app launches, including fixes to app instability when Apple Watch app causes the iPhone app to start in the background.
+- New sorting order options now has the ability to not only jump to current entry, but also do so by default if desired.
+- Re-added the search engine with an updated algorithm that now works better with most languages.
+- Fixes an issue where wrong button icons and labels may be shown in the Entry page.
+- Context menu options are now used in the Timeline and Journal Picker.
+- Improved Journal Picker UI hints and behaviour.
+- Options that appear as menus from buttons on top and bottom bars now work on iOS 13 and below as an alert pop-up.
+- Slightly improved colors for the new theme system, and fixed it for legacy OS versions.
+- Legacy themes will now auto-migrate to the closest themes available in the new theme system.
+
+Known issues:
+- Calendar view auto-scroll, click to jump to date, data sync etc. may not work on certain devices, and may appear to be frozen.
+- The image attachment viewer does not work in this build.
+- Auto light and dark theme based on ambient brightness may not work correctly.
+- The calendar view does not yet offer an easy way to jump by year, nor have buttons in replacement for scrolling the calendar.
+- Your scroll position may be overriden upon Timeline load completion, causing you to lose your place if you are scrolling around while it is loading.
+- The app might crash if you attempt to modify the Timeline search query while viewing an entry in split screen.
+- Siri Shortcuts, Home Screen shortcuts and Notification Quick Actions to create a new entry are temporarily not working.
+- Individual entry exports are temporarily not working. Bulk exports however should work fine.
+
+While this app can still be downloaded and used on devices iOS 9, it will now officially only be designed for iOS 13, iPadOS 13, macOS 10.15 and up, and work best for iOS 14, iPadOS 14, macOS 11 and up. Notable incompatibilities include:
+- Updated Auto Mood Detection model is not available on iOS 13, iPadOS 13, macOS 10.15 and below.
+- Modern context menu design is partially unavailable on some places in iOS 13, iPadOS 13 and macOS 10.15.
+- Modern context menus are not available on iOS 12 and below.
+- Dark theme is no longer available on iOS 12 and below.
+- Modern button icon designs are unavailable on iOS 12 and below.
+- Modern UI transitions and popup overlay styles are unavailable on iOS 12 and below.
+- 3D Touch support is no longer available on iOS 12 and below.
+- Reordering of images via drag and drop is not available on iOS 10 and below.
+
+### Version 3.0 Beta 1
+Personal Diary has been massively revamped and is now on version 3! Please try the beta version of Personal Diary and provide early feedback.
+
+Warning: Version 3 Personal Diary data is not compatible with older app versions. You will not be able to open data saved by version 3 in version 2.6.6 and older. Do not edit old data if you want to preserve them for older app versions. Backup your data before you proceed with this release.
+
+A large majority of the app has been completely rewritten from scratch to accommodate new features and further updates. With this significant update, notable changes so far include:
+
+- You can now use the app, browse, edit and create diary entries, even while the app is still in the middle of loading your existing data. No more long loading times!
+- With Multi-Journal Mode, you can now create multiple journals to organise your info, such as separate ones for Personal and Work entries.
+- A beautiful and fresh new Timeline and Entry Page design blends seamlessly with your entry contents.
+- A new split screen Timeline-Entry view better utilises available space on large widescreen devices.
+- A revamped data loading process allows everything to operate at maximum responsiveness, resolving lag spikes that could occur in multiple places in the past.
+- A completely revamped Settings page. Updates to features like date formats, advanced theming options, animations and more!
+- Improved syncing with other devices reduces the chance of conflicts and data overwrites from multiple devices at once.
+- New shortcuts and features now available directly in the Timeline, such as to jump to the latest entry (and to today, if you have future entries), sorting preferences, etc.
+
+There are many other improvements not listed here or are still upcoming, so play around with the beta and stay tuned! Do let me know if you liked it as well :)
+
+Some features may be missing, removed, or are not fully implemented as a result of the full app rewrite. Notably, search is temporarily not available and will be reimplemented in a future build. For other features, do report them if you want them to be included, or believe you have found a bug.
+
+Thanks again for using Personal Diary!
+
 ### Version 2.6.6
 This is likely to be the last bug fix update before version 3.0, which will involve a rewrite of the full codebase to make it easier to include new functionality as many of you have requested.
 
