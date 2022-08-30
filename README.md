@@ -54,7 +54,7 @@ Notable Features:
 - FlickType keyboard integration in the Apple Watch app, allowing for a faster and more convenient typing experience on your wrist.
 - NO Ads & absolutely FREE! :D
 
-\* All Apple OSes supported include: iOS, iPadOS, macOS and watchOS. The macOS version of the app is in beta. It does not make sense to have a tvOS version of Personal Diary.
+\* All Apple OSes supported include: iOS, iPadOS, macOS and watchOS.
 
 ## Downloads
 ### Stable Release
