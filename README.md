@@ -28,33 +28,38 @@ This repository is for issue tracking purposes, and for hosting of macOS stable 
 
 ## Description
 
-Personal Diary is a simple and easy to use journalling app which is completely free with no advertisements and limitations. Easily access all your entries in all your devices with iCloud Sync. With passcode & biometric protection, you can write diary entries without worrying that someone will peek at what you wrote. Forgot about your diary? The app will now 'summon' you back a friendly nudge. You can also import as many photos as you wish into your entries. As an addition, you can optionally set your mood and the current weather.
+Need a simple, free, and easy to use journalling app? Meet Personal Diary!
+
+With no advertisements, limitations nor any upfront cost, Personal Diary is your simplest and best journalling tool yet. Easily access all your entries in all your devices with iCloud Sync. Write diary entries without worrying that someone will peek at what you wrote, with passcode & biometric protection. Forgot about your diary? The app can 'summon' you back with a friendly nudge. You can also import as many photos as you wish into your entries. As an optional addition, you can set your mood, and add weather and tags to an entry.
 
 Notable Features:
-- Available on all primary Apple OSes.\*
-- iCloud Sync across all your devices.
-- Numeric passcode lock (any number of digits).
-- Unlock using Touch ID or Face ID.
-- Simple & Easy to use.
-- Auto-saves as you type.
-- Ability to pick a mood.
-- Ability to choose the weather of the day.
-- Mood & Weather can be automatically chosen.
-- Import photos to your entries.
-- Notifications to remind you to write in your diary daily.
-- Smart Search - look for stuff with intelligent search.
-- Select a theme of your liking.
-- Dark Mode for better night use.
-- Fully supports iPad Multitasking Features.
-- Fully supports external keyboard and trackpad.
-- Fully supports VoiceOver.
-- Simple Rich Text editing supported.
-- Siri Shortcuts and Integration (experimental).
-- Full-fledged Apple Watch app, with ability to browse a mini-Timeline, and add or edit entries.
-- FlickType keyboard integration in the Apple Watch app, allowing for a faster and more convenient typing experience on your wrist.
-- NO Ads & absolutely FREE! :D
+  -  Numeric passcode lock (any number of digits).
+  -  Unlock using Touch ID or Face ID on supported devices.
+  -  Auto-saves as you type.
+  -  Simple & Easy to use.
+  -  Sync data between devices via iCloud Drive.
+  -  Ability to pick a mood and weather of the day.
+  -  Mood & Weather can be automatically chosen.
+  -  Import photos to your entries.
+  -  Select a theme to suite your style.
+  -  Dark Mode for better night use.
+  -  iPad Multitasking Features supported.
+  -  Full support for physical keyboards, trackpad and mice.
+  -  VoiceOver fully supported.
+  -  Simple Rich Text editing supported.
+  -  Siri Shortcuts and Integration.
+  -  Full featured Apple Watch app.
+  -  Apple Watch system keyboard and FlickType keyboard support in the Apple Watch app.
+  -  Fully compatible with all modern iPhone, iPad and Apple Watch models.
+  -  Daily Notifications for writing in your diary.
+  -  No Advertisements & absolutely FREE! :D
 
-\* All Apple OSes supported include: iOS, iPadOS, macOS and watchOS.
+*Some features may not available on the Apple Watch. All features for editing and viewing all your entries such as the Timeline view are fully supported on the watch, except for previewing images.
+
+Don't forget to let me know what you think of Personal Diary by leaving a review on the App Store! Reviews and ratings help and let other users find this app. If you have any problems or questions, feel free to send a feedback; I might be able to help! :)
+
+Warning:
+- Please do not forget your password. If you forget your password and your identity cannot be verified, you may not be able to access your data.
 
 ## Downloads
 ### Stable Release
@@ -101,4 +106,4 @@ See [FAQ.md](FAQ.md).
 
 ---
 
-Copyright © Wern Jie Lim 2015-2020.
+Copyright © Wern Jie Lim 2015-2022.
