@@ -30,18 +30,18 @@ Notice the structure is of a folder with subfolders for each entry. The precise 
 - The entry folder name should indicate the entry date as `yyyymmdd hhmmss.ssss ZZZZ` (e.g., `20230101 123456.7890 +0800`).
     - This is a fallback for readability. Date and timezone information from `diary_settings.json` inside the subfolder will be used as the conclusive information.
 - Inside the entry folder:
-    - Either `diary_data.txt` or `diary_data.rtf` must exist, and they should contain your entry text. 
+    - Either `diary_data.txt` or `diary_data.rtf` must exist, and they should contain your entry text.
         - If there is no text, you must still include a blank `diary_data.txt` file.
-        - Note: RTF files with embedded images and attachments and formatting options other than bold, italics, underline, strikethrough, and links may not be supported or editable.
+            - Note: RTF files with embedded images and attachments and formatting options (other than bold, italics, underline, strikethrough, links) may not be supported or editable.
     - `diary_settings.json` must exist, containing the following information:
         -   | Key | Value Type | Description |
             |-----|------------|-------------|
             | version | number \(1\) | The `diary_settings.json` format version (this is version 1). |
-            | dateSecFrom1970 | number | The exact time the entry is written in, as the number of seconds since 1970-01-01 UTC. |
-            | timezoneIdentifier | string | The timezone the entry is written in as a [Time Zone Identifier](https://www.wikipedia.org/en/List_of_tz_database_time_zones). |
-            | timezoneSecFromGMT | number | The timezone offset, in seconds offset from GMT, where the entry is written in. This is used as the absolute answer if `timezoneIdentifier` is invalid or contradictory. |
-            | weather | string (optional) | Weather for this entry as an emoji. |
-            | mood | string (optional) | Mood for this entry as an emoji. |
+            | dateSecFrom1970 | number | The number of seconds since 1970-01-01 UTC, representing the date and time the entry is written on. |
+            | timezoneIdentifier | string | The timezone the entry is written in as a [Time Zone Identifier](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). |
+            | timezoneSecFromGMT | number | The timezone offset in seconds offset from GMT where the entry is written in. This is used if `timezoneIdentifier` is invalid or contradictory. |
+            | weather | emoji-string (optional) | Weather for this entry as an emoji. |
+            | mood | emoji-string (optional) | Mood for this entry as an emoji. |
             | moodCanBeAutoDetermined | boolean | Whether this entry should auto-update the `mood` value when entry contents are changed. |
             | attachmentOrder | string\[\] | The list of filenames of attachments for this entry, indicating the sorted display order. |
             | tags | string\[\] | The list of tags for this entry. They should not contain spaces. |
