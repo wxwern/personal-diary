@@ -27,7 +27,7 @@ Terms wrapped in `<>` are placeholders and should work with any name, while term
 Note that only image attachments are officially supported in this version. Attachment names have no definite format as long as they do not conflict with internal filenames used by the app.
 
 Notice the structure is of a folder with subfolders for each entry. The precise requirements are as follows:
-- The entry folder name should indicate the entry date as `yyyymmdd hhmmss.ssss ZZZZ` (e.g., `20230101 123456.7890 +8000`).
+- The entry folder name should indicate the entry date as `yyyymmdd hhmmss.ssss ZZZZ` (e.g., `20230101 123456.7890 +0800`).
     - This is a fallback for readability. Date and timezone information from `diary_settings.json` inside the subfolder will be used as the conclusive information.
 - Inside the entry folder:
     - Either `diary_data.txt` or `diary_data.rtf` must exist, and they should contain your entry text. 
