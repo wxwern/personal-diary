@@ -1,6 +1,62 @@
 ## CHANGELOG
 Changelog for all stable releases (and the most recent beta) of Personal Diary.
 
+### Version 3.0.6
+- Fixed: Page Curl Animations added tap-to-flip-page tap targets that conflict with button taps on images and text, making it impossible to edit text or add a new image in some situations. This is now removed.
+- Fixed: Strikethrough option was missing in recent versions of the app.
+- Fixed: Strikethrough and Hyperlink keyboard shortcuts were missing in recent versions of the app.
+- Fixed: PDF and Printing Export Cover Page might not be removed even if you turn it off.
+- Improved: For PDF and Printing exports, they might crash when merging large numbers of pages due to running out of memory. This is mitigated through transferring partial exported contents onto storage and improved memory management.
+- Improved: For PDF and Printing exports, you can now specify the starting page number, so you may merge PDF parts from the past outside of the app and do not need to reexport everything to get the page numbers right.
+
+
+### Version 3.0.5
+- Fixed: Mood and Weather cannot be removed if already set.
+- Fixed: Biometrics Unlock may be displayed even when it is not supported or enabled on your device.
+- Fixed: In some cases you might be able to "import" inline images into the text editor. Though it looks like it worked, the action isn't supported and it is not saved. The text editor will now correctly reflect this and not show inline images.
+- Improved: Closing the Journal Picker (available when Multi-Journal Mode is on) will now lock the app as well (if a passcode is set).
+- Improved: Entry data now internally tracks a version number, so future version incompatibilities can be marked with an appropriate warning.
+- Attempted to Fix: Personal Diary might crash on older versions of macOS.
+
+
+### Version 3.0.4
+- Fixed: Notifications stop working after 14 days in the newer versions, claiming that you have never opened the app even if you did.
+- Fixed: 'Something went wrong' alerts may appear on app launch even when nothing is wrong.
+
+
+### Version 3.0.3
+
+- Fixed: Searching with multiple words may not work in certain languages.
+- Fixed: Search terms with only the month and year now correctly shows results (again).
+- Fixed: Delete button was missing in the image attachment panel.
+- Fixed: Image thumbnails may appear in the wrong orientation in previews on iOS 14 and below.
+- Fixed: A transition animation may unexpectedly occur which "transitions" to the same entry.
+- Improved: Added a section to perform basic customizations for VoiceOver prompts.
+- Improved: Date Format options for the Timeline view has been rephrased for clarity.
+
+
+### Version 3.0.2
+
+- Fixed: Search terms with only the month and year now correctly shows results.
+- Fixed: Searching contents were incorrectly case sensitive. That is fixed and are now no longer case sensitive.
+- Fixed: Tags now show up correctly in PDF exports.
+- Fixed: Editing an entry while entries are refreshing may cause edits to be undone and reverted.
+- Fixed: A rare crash that may occur when the number of entries loaded changes while the UI is being updated.
+- Fixed: When mood and weather are turned off for new entries, auto mood detection should not have kicked in automatically.
+- Fixed: Raw Data Archive now outputs folder names with the corresponding timezone the entry is written in.
+- Improved: The timezone indicators for entries with timezones different than your current one can now either be hidden or ignored.
+- Improved: Clarified in-app explanation for legacy iOS version warnings.
+
+Note: The search engine in version 3+ now searches text by considering only individual words in whatever language you're in. If you want to search an exact phrase with arbitrary words and symbols, surround the phrase with double quotes (").
+
+### Version 3.0.1
+
+- Fixed: Toggling the Multi-Journal Mode switch may crash the app.
+- Fixed: The app may crash when creating a new entry.
+- Fixed: Some other miscellaneous crashes that may occur.
+- Improved: Images in PDFs should be less likely to fail to export.
+
+
 ### Version 3.0
 
 Personal Diary has been massively revamped behind the scenes and is now on version 3! Enjoy vastly improved app launch times, lots of new features and compatibility with all new operating systems and devices released so far.
