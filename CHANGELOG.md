@@ -1,7 +1,7 @@
-## CHANGELOG
-Changelog for all stable releases (and the most recent beta) of Personal Diary.
+# Personal Diary Changelog
+Version history for all stable releases (and the most recent beta) of Personal Diary.
 
-### Version 3.0.6
+## Version 3.0.6
 - Fixed: Page Curl Animations added tap-to-flip-page tap targets that conflict with button taps on images and text, making it impossible to edit text or add a new image in some situations. This is now removed.
 - Fixed: Strikethrough option was missing in recent versions of the app.
 - Fixed: Strikethrough and Hyperlink keyboard shortcuts were missing in recent versions of the app.
@@ -10,7 +10,7 @@ Changelog for all stable releases (and the most recent beta) of Personal Diary.
 - Improved: For PDF and Printing exports, you can now specify the starting page number, so you may merge PDF parts from the past outside of the app and do not need to reexport everything to get the page numbers right.
 
 
-### Version 3.0.5
+## Version 3.0.5
 - Fixed: Mood and Weather cannot be removed if already set.
 - Fixed: Biometrics Unlock may be displayed even when it is not supported or enabled on your device.
 - Fixed: In some cases you might be able to "import" inline images into the text editor. Though it looks like it worked, the action isn't supported and it is not saved. The text editor will now correctly reflect this and not show inline images.
@@ -19,12 +19,12 @@ Changelog for all stable releases (and the most recent beta) of Personal Diary.
 - Attempted to Fix: Personal Diary might crash on older versions of macOS.
 
 
-### Version 3.0.4
+## Version 3.0.4
 - Fixed: Notifications stop working after 14 days in the newer versions, claiming that you have never opened the app even if you did.
 - Fixed: 'Something went wrong' alerts may appear on app launch even when nothing is wrong.
 
 
-### Version 3.0.3
+## Version 3.0.3
 
 - Fixed: Searching with multiple words may not work in certain languages.
 - Fixed: Search terms with only the month and year now correctly shows results (again).
@@ -35,7 +35,7 @@ Changelog for all stable releases (and the most recent beta) of Personal Diary.
 - Improved: Date Format options for the Timeline view has been rephrased for clarity.
 
 
-### Version 3.0.2
+## Version 3.0.2
 
 - Fixed: Search terms with only the month and year now correctly shows results.
 - Fixed: Searching contents were incorrectly case sensitive. That is fixed and are now no longer case sensitive.
@@ -49,7 +49,7 @@ Changelog for all stable releases (and the most recent beta) of Personal Diary.
 
 Note: The search engine in version 3+ now searches text by considering only individual words in whatever language you're in. If you want to search an exact phrase with arbitrary words and symbols, surround the phrase with double quotes (").
 
-### Version 3.0.1
+## Version 3.0.1
 
 - Fixed: Toggling the Multi-Journal Mode switch may crash the app.
 - Fixed: The app may crash when creating a new entry.
@@ -57,7 +57,7 @@ Note: The search engine in version 3+ now searches text by considering only indi
 - Improved: Images in PDFs should be less likely to fail to export.
 
 
-### Version 3.0
+## Version 3.0
 
 Personal Diary has been massively revamped behind the scenes and is now on version 3! Enjoy vastly improved app launch times, lots of new features and compatibility with all new operating systems and devices released so far.
 
@@ -124,7 +124,7 @@ Furthermore, while this app can still be downloaded and used on devices iOS 11 a
 - Reordering of images via drag and drop is not available on iOS 10 and below.
 - FlickType on the Apple Watch app is no longer supported on watchOS 6.
 
-### Version 2.6.6
+## Version 2.6.6
 This is likely to be the last bug fix update before version 3.0, which will involve a rewrite of the full codebase to make it easier to include new functionality as many of you have requested.
 
 Right now, this build provides the following changes:
@@ -132,7 +132,7 @@ Right now, this build provides the following changes:
 - Minor UI behaviour patches in an entry.
 - Improved diary reminder notification handling.
 
-### Version 2.6.5
+## Version 2.6.5
 - Fixes an issue where content auto-scrolls back to the cursor while editing in an entry on macOS (again).
 - Resolves an issue where if Dark Theme is set to Auto, it may not work correctly on macOS, where it randomly switches to Dark Mode even in undesired situations.
 - Updated minimum window size on macOS.
@@ -141,7 +141,7 @@ Right now, this build provides the following changes:
 - Improved password recovery identity verification process, with many bug fixes and accuracy improvements.
 - Stopped unnecessary background updates for dark mode, so the app should now not waste as much power doing nothing.
 
-### Version 2.6.3
+## Version 2.6.3
 - Fixes an issue where content auto-scrolls back to the cursor while editing in an entry on macOS.
 - Resolves an issue where the passcode screen may be prompted twice.
 - Passcode input when using VoiceOver now follows VoiceOver settings and input methods set up.
@@ -151,7 +151,7 @@ Right now, this build provides the following changes:
 
 Note: On macOS, the app's settings page window in this release may glitch out and be quite small, which was why this macOS release is delayed compared to iOS/iPadOS/watchOS. This version is released anyway to resolve more severe usability problems, and the settings page will be resolved in a future update.
 
-### Version 2.6.2
+## Version 2.6.2
 - Added support for iOS 14.2, iPadOS 14.2, and macOS Big Sur.
 - Personal Diary is now a Universal Mac app, supporting Macs with Apple Silicon natively.
 - Resolved an issue where passcode screen may not block the entire app.
@@ -166,13 +166,13 @@ Note: On macOS, the app's settings page window in this release may glitch out an
 - Improved app performance on macOS Big Sur.
 - Reduced data export size limits.
 
-### Version 2.6.1
+## Version 2.6.1
 - Fixed an issue where scrolling may not work while editing an Entry.
 - Patched a bug where pasting content might cause erroneous auto-scrolling.
 - Added an edit button in the Entry page that provides hints on how you can edit all aspects of an entry.
 - Added an indicator on macOS to press 'esc' to finish typing when Focused Editing Mode is enabled in Personal Diary settings.
 
-### Version 2.6
+## Version 2.6
 - Personal Diary is now available on macOS 10.15 and later.
 - Optimized for iOS 14, iPadOS 14 and watchOS 7.
 - Fixed an issue on iOS and iPadOS 14 where your data on iCloud does not automatically download.
@@ -199,7 +199,7 @@ Note: On macOS, the app's settings page window in this release may glitch out an
 - Updated App Support & Information page.
 - Updated some troubleshooting prompts.
 
-### Version 2.5.11
+## Version 2.5.11
 - Updated with support for the latest iOS, iPadOS, and watchOS versions.
 - The app is now available in beta on macOS 10.15 or later.
 - Added mouse and trackpad support, suited for iPadOS and macOS.
@@ -207,7 +207,7 @@ Note: On macOS, the app's settings page window in this release may glitch out an
 - Fixed an issue where formatted text on PDF exports have a 62.5% chance of being missing or corrupted.
 - Resolved a bug where an image in a PDF export may be split into two on two different pages.
 - Resolves issues with PDF exports where pages are not split up properly.
-- Patched a bug where images could be duplicated and injected in PDF exports if a certain string of characters are present in their entry text. 
+- Patched a bug where images could be duplicated and injected in PDF exports if a certain string of characters are present in their entry text.
 - Fixed a problem where PDF exports may fail for large diaries due to running out of memory, causing the app to crash, freeze, or have missing images. Caveat: PDF exports will now be slower as they are now done in chunks and rendered in storage instead.
 - Fixed an issue where nothing happens when editing a hyperlink.
 - Fixed some bugs and glitches that may occur when operating with keyboard shortcuts.
@@ -222,32 +222,32 @@ Note: On macOS, the app's settings page window in this release may glitch out an
 - Some minor UI updates to settings screens.
 - More preparations for multi-journal support.
 
-### Version 2.5.10 
+## Version 2.5.10
 - Added acknowledgements within the app.
 - Minor bug fixes.
 
-### Version 2.5.9
+## Version 2.5.9
 - Fixed a critical bug where resetting a forgotten passcode, running diagnostics, and other parts of Recovery Mode that just doesn't seem to do anything as a subsequent alert does not pop up.
 - Added ability to check purchased tips.
 
-### Version 2.5.8 
+## Version 2.5.8
 - Made significant changes behind the scenes to prepare the app for multiple journals and custom attachments (video, audio, files etc) support. Stay tuned!
 - Updated App Store screenshots.
 
-### Version 2.5.7 
+## Version 2.5.7
 - Fixes a bug where the Plain White theme renders text and buttons in white, making them look invisible on a white background.
 - Resolves an inconvenience where overriding light or dark themes won't necessarily update throughout the app until the app is completely restarted.
 - Improved the phrasing of the entry deletion alert to warn about the fact that deletion will sync across devices.
 - Removed some animations as they have a small chance to glitch out and cause entries in the Timeline to "fly away".
 - Some internal code changes to improve future compatibility.
 
-### Version 2.5.6 
+## Version 2.5.6
 - Fixed an issue where 'Title' labels interfere with the search bar on older iOS versions.
 - Fixed a bug where iPad users using iOS 13.2 or later would have issues exporting data as the app would freeze a little and not show the share sheet.
 - Performed minor updates to the 'Welcome Back' heading.
 - Minor phrasing changes to the error prompt that appears after the crash.
 
-### Version 2.5.5 
+## Version 2.5.5
 
 - A prompt now confirms that diary data is ready for export, before showing the Share Sheet to select where to save your file.
 - Hopefully the bug where some users aren't able to select a location to save their exported file is resolved.
@@ -255,17 +255,17 @@ Note: On macOS, the app's settings page window in this release may glitch out an
 - Slightly refreshed the Dark Theme in the Timeline view.
 - Fixes a bug where the Images heading does not update its counter after adding a new image.
 
-### Version 2.5.3 
+## Version 2.5.3
 
 - Added the ability to check for app updates from within Recovery Mode.
 - Improved phrasing and handling of the error prompt after crashing.
 
-### Version 2.5.2 
+## Version 2.5.2
 
 - Rebuilt the app with Xcode 11.2.1. This fixes a critical issue where users using iOS versions older than iOS 13.2 are not able to use the app normally, as the app crashes when you try to add an entry, among other areas.
 - Fixed an issue where unlocking with biometrics is always possible regardless of switch position.
 
-### Version 2.5.1 
+## Version 2.5.1
 
 - Re-added the latest FlickType SDK in the watch app. Type away with the new version of the award-winning keyboard, right from your wrist!
 - Added the ability to trigger biometric authentication (Touch ID or Face ID) from the password view directly if the automatic authentication fails.
@@ -278,16 +278,16 @@ Note: On macOS, the app's settings page window in this release may glitch out an
 - Updated the AI for automatic mood selection.
 - Fixed some bugs and glitches on the UI where it shows conflicting information in the watch app.
 
-### Version 2.5 
+## Version 2.5
 - Added full iOS 13 support.
 - Dark Mode now properly reflects system settings if 'Auto' or 'System' is selected. This was not working in prior releases.
 - Added compatibility with the latest iPhone & iPad.
 - Added import functionality, so you can restore any backups you made in the past as a \*.zip file exported by the app.
 - Fixed a date corruption issue if you restore an iOS 13 backup or transferred data to an iOS 13 enabled device, like the new iPhone 11. However, this version of the app needs to run before iOS 13 is installed, otherwise it would be a little too late. Any corrupted data unfortunately cannot be recovered unless you have a backup.
 - Fixed some bugs regarding data migration and data export.
-- Removed FlickType SDK temporarily as it is not yet compatible with watchOS 6. 
+- Removed FlickType SDK temporarily as it is not yet compatible with watchOS 6.
 
-### Version 2.4.30 
+## Version 2.4.30
 
 - Fixed an issue regarding changing themes will not update until you restart the app.
 - The app should now function properly on iOS 13.
@@ -295,16 +295,16 @@ Note: On macOS, the app's settings page window in this release may glitch out an
 - Updated FlickType SDK to version 2.2, allowing for faster keyboard input than ever before.
 - Added 'thinking emoji'.
 
-### Version 2.4.28 
+## Version 2.4.28
 
 - Fixed an issue where in certain conditions if you swipe left or right to load neighbouring entries, the images do not reload.
 - Fixed an issue where if text formatting (bold, italics etc) are applied at the start of any entry, the exported content would have messed up styles.
-- Hopefully fixing the issue where "apologies for the crash" prompts occur even if a crash never occur. I hope. 
+- Hopefully fixing the issue where "apologies for the crash" prompts occur even if a crash never occur. I hope.
 - Improved Dark Mode auto switching such that it performs less unnecessary work in the background.
 - Cleaned up some of the app's source code.
 - Performed some preparations for iOS 13.
 
-### Version 2.4.27 
+## Version 2.4.27
 
 - Added support for the award winning FlickType keyboard on the Personal Diary Apple Watch app. You can now create entries faster than ever before and with ease, all from your Apple Watch! Read more below.
 - You can now modify a portion of an entry or continue writing an entry that you’ve made in the past, without replacing the text completely from scratch. (Only supported with the FlickType keyboard)
@@ -313,10 +313,10 @@ Note: On macOS, the app's settings page window in this release may glitch out an
 - Some other small glitches which hopefully you never noticed are fixed.
 
 
-### Version 2.4.26 
+## Version 2.4.26
 - This update contains a quick bug fix which should fix the issue where some users were not able to properly import images from their Photo Library.
 
-### Version 2.4.25 
+## Version 2.4.25
 
 - App icon and some parts of the app’s interface has been updated.
 - Fixed an issue with keyboard shortcuts not functioning correctly.
@@ -326,13 +326,13 @@ Note: On macOS, the app's settings page window in this release may glitch out an
 - Fixes some small bugs when swiping between entries in the Entry view.
 - Fixed some other minor internal issues.
 
-### Version 2.4.24 
+## Version 2.4.24
 
 - Fixes an issue with Chinese, Japanese characters etc not being able to be typed normally within the app. Sorry for any inconvenience caused.
 - Adds haptic feedback for the bounce back when you attempt to swipe left or right to another entry in the Entry view, but there are no more entries to view in that direction.
 - Theme text color in the top bar & status bar text color should now match. Some themes were messed up previously.
 
-### Version 2.4.23 
+## Version 2.4.23
 
 This release adds some features and fixes a few bugs.
 
@@ -347,11 +347,11 @@ This release adds some features and fixes a few bugs.
 - Slightly improved how search results are presented.
 - Fixes issues regarding low storage space and added warnings when you’ve low storage space.
 
-### Version 2.4.22 
+## Version 2.4.22
 
 This new release is an attempt to fix the crashes in which 0.1% of users are experiencing all the time for no reason, and a reinstall of the app will fixes the issue for these users. Do inform me if this still hasn’t fixed the issue but going into Safe mode and contacting me.
 
-### Version 2.4.20 ~ 2.4.21 
+## Version 2.4.20 ~ 2.4.21
 
 Included a few amazing functionalities in this update. Notably:
 
@@ -372,7 +372,7 @@ And some bug fixes:
 - Removed animations for users on iOS 9 due to an animation glitch that only occurs persistently on iOS 9.
 - Fixed bugs regarding the app not detecting a new iCloud sign in properly and therefore would not display iCloud content until an app refresh is performed.
 
-### Version 2.4.19 
+## Version 2.4.19
 New features added, while most bugs should be squashed. Hopefully they don’t reproduce.
 
 - Killed a bug where the Timeline just decides not to chronologically sort your entries and jumble up your entries if you’ve modified the dates so that it isn’t referring to ‘now’, until you summon it to reload by pulling down to refresh.
@@ -386,7 +386,7 @@ New features added, while most bugs should be squashed. Hopefully they don’t r
 - Reordered some of the settings from within the app.
 - Added random Easter eggs but I won’t tell you what are they. ;)
 
-### Version 2.4.17 - 2.4.18 
+## Version 2.4.17 - 2.4.18
 - The app is now fully compatible with iOS 12 & the 2018 iPhone models.
 - Added Experimental Siri Integration and Siri Shortcuts support.
 - Fixes a bug where pressing the ‘+’ button to add an entry while searching causes a crash.
@@ -404,7 +404,7 @@ New features added, while most bugs should be squashed. Hopefully they don’t r
 - Added Safe Mode which can be enabled to bypass the usual routine of the app if it ever gets stuck in a crash loop.
 - Adds randomness to when the notification is triggered by ±30 minutes so that you won’t be bored of it triggering exactly at the time you specified.
 
-### Version 2.4.15 - 2.4.16 
+## Version 2.4.15 - 2.4.16
 - Adds iCloud disabling/sign out notification. The app now notifies you that your data stored on iCloud is inaccessible and how to fix the problem, as some users were confused as to why they cannot find data in the app after disabling iCloud.
 - Increases maximum text size setting of the app for easier readability if needed.
 - Some small updates to the AI Engine.
@@ -415,7 +415,7 @@ New features added, while most bugs should be squashed. Hopefully they don’t r
 - Improved verification process of the password reset tool.
 - Fixes bugs with some settings not correctly applied.
 
-### Version 2.4.11 - 2.4.12 
+## Version 2.4.11 - 2.4.12
 
 - Fixes a bug where excessive lag might occur everywhere within the app, either suddenly or immediately after a crash.
 - Fixes a bug where pressing the “+” button to add an entry will take forever to load.
@@ -431,7 +431,7 @@ New features added, while most bugs should be squashed. Hopefully they don’t r
 - Relaxes the requirements for a password reset.
 - Adds support for additional external keyboard shortcuts.
 
-### Version 2.4.7 - 2.4.10 
+## Version 2.4.7 - 2.4.10
 
 These updates adds:
 - Daily Diary Notifications
@@ -442,7 +442,7 @@ These updates fixes:
 - an issue where passcodes are not properly saved.
 - a bug causing some users to fail to login to the app after enabling diary notifications.
 
-### Version 2.4.6 
+## Version 2.4.6
 New Features (originally teased in the main release version 2.4):
 - Auto Mood Selection
   - Selects the mood automatically based on what you wrote. The mood selection AI will improve overtime as more updates come along.
@@ -469,7 +469,7 @@ Additions:
 - Passcode protection will now persist even after deletion of the app. Note that other than the recovery tool, there will be no other way to enter the app except with your passcode starting from this version of the app.
 - Since you all tend to report issues I can’t find, I’ve included the ability to send internal diagnostic information to me in order to diagnose the problem better.
 
-### Version 2.4.1 ~ 2.4.5 
+## Version 2.4.1 ~ 2.4.5
 
 This minor update:
 - fixes an issue which prevents you to scroll to another area while keyboard is displayed.
@@ -480,18 +480,18 @@ This minor update:
 - v2.4.2 fixes an issue caused by v2.4.1 to not allow users to turn on or turn off Touch ID/Face ID.
 - v2.4.3 fixes an issue caused by v2.4.2 where the “2” is replaced with “z…e” in the password field, which causes multiple users not being able to enter the app.
 
-### Version 2.4 
+## Version 2.4
 
 This update contains:
 - faster performance,
-- bug fixes, 
-- slight UI changes, 
-- improvements to entries created in the same day, 
+- bug fixes,
+- slight UI changes,
+- improvements to entries created in the same day,
 - new messages pop up,
 - under the hood improvements,
 - compatibility with new iPhone models such as the iPhone X.
 
-### Version 2.3 
+## Version 2.3
 
 - New Dark Mode!
 (Dark Mode auto-enables in extreme low-light)
@@ -513,7 +513,7 @@ This update contains:
 
 Some features requires iOS 9 and later to function properly.
 
-### Version 2.2 
+## Version 2.2
 
 What’s New In This Version:
 
@@ -540,7 +540,7 @@ Minor bug fixes
 Keyboard shortcuts now supported
 VoiceOver improvements & fixes
 
-### Version 2.1 
+## Version 2.1
 
 - Icon redesigned
 - Fixed a bug where entries would disappear.
@@ -553,7 +553,7 @@ VoiceOver improvements & fixes
 - Added some weather icons.
 - Date now reflects to your current region format.
 
-### Version 2.0 
+## Version 2.0
 
 - More moods to choose from
 - You can now import photos into your entries
@@ -563,6 +563,6 @@ VoiceOver improvements & fixes
 - Various bug fixes
 - Slight design modifications
 
-### Version 1.0 
+## Version 1.0
 
 - First Release
