@@ -1,7 +1,8 @@
-# Data Format Documentation
-This page describes Personal Diary's Raw Data Archive file's data format.
+# Raw Data Archive Format
 
-You are free to make your own helper scripts that convert third-party app data to and from this format. (Consider contributing them here!)
+This page describes Personal Diary's Raw Data Archive (.zip) file's data format.
+
+You are free to make your own helper scripts that convert third-party app data to and from this format, or look for verified conversion scripts [here](https://github.com/wxwern/personal-diary/tree/master/data_format/conversion). (Consider contributing them as well!)
 
 **Personal Diary v3.0+**
 
