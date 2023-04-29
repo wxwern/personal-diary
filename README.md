@@ -68,27 +68,16 @@ Recommended:
 - **App Store (iOS, iPadOS, macOS, watchOS)**
     + https://apps.apple.com/app/personal-diary-journal-app/id1052570257
 
-Alternatives:
-- **Homebrew (macOS):**
-    + `brew install wernjie/formulae/personal-diary`
-- **Manual Download (macOS):**
-    + https://github.com/wernjie/personal-diary/releases
-    + Downloading from here is not recommended as autoupdate functionality is not present within the app.
+Alternative download methods have been deprecated due to inability to integrate with certain system APIs.
 
 ### Beta Release
-
 Beta releases are inherently unstable. Please backup your data before trying them out.
 
 Recommended:
 - **TestFlight (iOS, iPadOS, macOS, watchOS):**
     + https://testflight.apple.com/join/vGSyL9K7
 
-Alternatives:
-- **Homebrew (macOS):**
-    + `brew install wernjie/formulae/personal-diary-beta`
-- **Manual Download (macOS):**
-    + https://github.com/wernjie/personal-diary/releases
-    + Downloading from here is not recommended as autoupdate functionality is not present within the app.
+Alternative download methods have been deprecated due to inability to integrate with certain system APIs.
 
 ## Changelog
 
@@ -106,4 +95,4 @@ See [FAQ.md](FAQ.md).
 
 ---
 
-Copyright © Wern Jie Lim 2015-2022.
+Copyright © Wern Jie Lim 2015-2023.
