@@ -4,8 +4,6 @@ This document lists Frequently Asked Questions about Personal Diary.
 
 Note that the details here are only applicable for the latest versions of Personal Diary, so do ensure you've updated to the latest version of the app.
 
----
-
 ## Usage
 
 ### How do I set, change or remove my passcode/password?
