@@ -1,14 +1,14 @@
 # Personal Diary Changelog
 Version history for all stable releases (and the most recent beta) of Personal Diary.
 
-### Version 3.0.9
+## Version 3.0.9
 
 - Fixed: Storage Location preference settings may not update correctly after a background iCloud login update. This may have caused unexpected confusion as to why storage locations randomly switched.
 - Fixed: Journal Picker headers may not appear correctly on macOS.
 - Improved: Information about storage location differences of a journal are now clearer. The app also now prompts to automatically change settings for you if you want to access journals in a different location without migrating.
 - Improved: There are now double-confirmations for journal storage location migrations to prevent accidental migrations.
 
-### Version 3.0.8
+## Version 3.0.8
 
 - Fixed: On recent versions of iOS, iPadOS and macOS and Personal Diary, there is a chance where you would frequently get scary iCloud access denied errors. This is because the system temporarily removed access to iCloud for whatever reason. It has now changed to a "waiting for iCloud access" indicator, which automatically dismisses once iCloud is ready.
 - Fixed: Some miscellaneous crashes that do not appear to have any reason should be resolved.
