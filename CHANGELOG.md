@@ -1,6 +1,12 @@
 # Personal Diary Changelog
 Version history for all stable releases (and the most recent beta) of Personal Diary.
 
+## Version 3.0.10 (beta)
+
+- Fixed: Smart Search did not correctly account for search terms consisting of the day of the week (so searching for "Saturday" did not work).
+- Fixed: Importing photos taken directly from the Camera within the app did not work correctly.
+- Improved: Added more hints and shortcuts to close and restart the app for exiting Safe Mode.
+
 ## Version 3.0.9
 
 - Fixed: Storage Location preference settings may not update correctly after a background iCloud login update. This may have caused unexpected confusion as to why storage locations randomly switched.
