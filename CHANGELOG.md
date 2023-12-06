@@ -3,9 +3,13 @@ Version history for all stable releases (and the most recent beta) of Personal D
 
 ## Version 3.0.10 (beta)
 
+- Fixed: Images may be stuck "loading" - they are caused by previously deleted images of which the app still thinks exists and is trying to load.
+- Fixed: Dragging and dropping images to export images out of the app, or copy images to multiple entries, may cause the app to incorrectly use low resolution thumbnails of the image.
+- Fixed: Importing photos taken directly from the Camera within the app did not do anything.
+- Fixed: Images may flicker upon selection of an entry, upon autosave, or upon scrolling through lists or pages with images.
 - Fixed: Smart Search did not correctly account for search terms consisting of the day of the week (so searching for "Saturday" did not work).
-- Fixed: Importing photos taken directly from the Camera within the app did not work correctly.
-- Improved: Added more hints and shortcuts to close and restart the app for exiting Safe Mode.
+- Improved: Added more hints of Safe Mode and direct shortcuts to exit it.
+- Improved: Disabling image previews will now show a placeholder image instead of a blank space.
 
 ## Version 3.0.9
 
