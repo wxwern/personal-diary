@@ -7,7 +7,7 @@ assignees: wxwern
 
 ---
 
-### Bug description
+### Bug Description
 
 Replace this line with a clear and concise description of what the bug is. Include steps to reproduce the bug if necessary.
 
@@ -17,13 +17,21 @@ Replace this line with a clear and concise description of what the bug is. Inclu
 If applicable, add screenshots to help explain your problem.
 
 
-### Device information
+### App Information
 
- - Model:
- - OS Version:
- - App Version:
+This issue impacts...
+
+ - Version Number: 
 
 
-### Additional context
+### Device Information
+
+This issue occurs on...
+
+ - Model(s): 
+ - OS Version(s): 
+
+
+### Additional Context
 
 Add any other context about the problem here.

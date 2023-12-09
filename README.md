@@ -88,11 +88,22 @@ See [CHANGELOG.md](CHANGELOG.md).
 See [FAQ.md](FAQ.md).
 
 ## Contributing
-- You should only report issues regarding the functionality and usability of the app (i.e. bugs, feature requests etc).
-    + Do *not* request for help on forgotten passcodes on Github.
+
+### Problem Reports
+- You should only report issues regarding the functionality and usability of the app.
 - Title and describe your issue adequately, with relevant information about your device and any steps to reproduce (if applicable).
 - Please avoid submitting duplicate issues. If you find a documented issue, you may add information as a comment if necessary.
+- You may react on an existing issue to indicate that you are also experiencing the same issue.
+
+### Feature Requests
+- Please try to be as descriptive as possible.
+- Please avoid submitting duplicate requests. If you find a documented request, you may add information as a comment if necessary.
+- You may react on an existing request to indicate that you also want the feature.
+
+### Questions
+- You may ask questions on the Discussions page (preferred) or Issues page.
+    + Do *not* request for help on forgotten passcodes on Github.
 
 ---
 
-Copyright © Wern Jie Lim 2015-2023.
+Copyright © Wern 2015-2023.

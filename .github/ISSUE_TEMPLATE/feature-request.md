@@ -7,11 +7,11 @@ assignees: wxwern
 
 ---
 
-### Feature description
+### Feature Description
 
 Replace this with a clear and concise description of what you want to happen.
 
 
-### Additional context
+### Additional Context
 
 If applicable, add any other context, mockups or screenshots about the feature request here, e.g., how existing features do not suit your needs.
