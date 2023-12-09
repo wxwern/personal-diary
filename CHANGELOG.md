@@ -3,6 +3,7 @@ Version history for all stable releases (and the most recent beta) of Personal D
 
 ## Version 3.0.10 (beta)
 
+- Fixed: Hyperlinks and Strikethroughs did not save until other unrelated modifications have been done to trigger autosave.
 - Fixed: Images may be stuck "loading" - they are caused by previously deleted images of which the app still thinks exists and is trying to load.
 - Fixed: Dragging and dropping images to export images out of the app, or copy images to multiple entries, may cause the app to incorrectly use low resolution thumbnails of the image.
 - Fixed: Importing photos taken directly from the Camera within the app did not do anything.
