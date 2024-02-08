@@ -17,8 +17,7 @@ This repository is for issue tracking purposes, and for hosting of macOS stable 
 
 **Shortcuts**
 
-- [Official Webpage](https://www.wernjie.com/personal-diary/)
-- [Description](#description)
+- [Official Webpage](https://wern.cc/app/personal-diary)
 - [Downloads](#downloads)
     + [Stable Release](#stable-release)
     + [Beta Release](#beta-release)
@@ -26,40 +25,9 @@ This repository is for issue tracking purposes, and for hosting of macOS stable 
 - [Frequently Asked Questions](FAQ.md)
 - [Contributing](#contributing)
 
-## Description
+## Official Webpage
 
-Need a simple, free, and easy to use journalling app? Meet Personal Diary!
-
-With no advertisements, limitations nor any upfront cost, Personal Diary is your simplest and best journalling tool yet. Easily access all your entries in all your devices with iCloud Sync. Write diary entries without worrying that someone will peek at what you wrote, with passcode & biometric protection. Forgot about your diary? The app can 'summon' you back with a friendly nudge. You can also import as many photos as you wish into your entries. As an optional addition, you can set your mood, and add weather and tags to an entry.
-
-Notable Features:
-  -  Numeric passcode lock (any number of digits).
-  -  Unlock using Touch ID or Face ID on supported devices.
-  -  Auto-saves as you type.
-  -  Simple & Easy to use.
-  -  Sync data between devices via iCloud Drive.
-  -  Ability to pick a mood and weather of the day.
-  -  Mood & Weather can be automatically chosen.
-  -  Import photos to your entries.
-  -  Select a theme to suite your style.
-  -  Dark Mode for better night use.
-  -  iPad Multitasking Features supported.
-  -  Full support for physical keyboards, trackpad and mice.
-  -  VoiceOver fully supported.
-  -  Simple Rich Text editing supported.
-  -  Siri Shortcuts and Integration.
-  -  Full featured Apple Watch app.
-  -  Apple Watch system keyboard and FlickType keyboard support in the Apple Watch app.
-  -  Fully compatible with all modern iPhone, iPad and Apple Watch models.
-  -  Daily Notifications for writing in your diary.
-  -  No Advertisements & absolutely FREE! :D
-
-*Some features may not available on the Apple Watch. All features for editing and viewing all your entries such as the Timeline view are fully supported on the watch, except for previewing images.
-
-Don't forget to let me know what you think of Personal Diary by leaving a review on the App Store! Reviews and ratings help and let other users find this app. If you have any problems or questions, feel free to send a feedback; I might be able to help! :)
-
-Warning:
-- Please do not forget your password. If you forget your password and your identity cannot be verified, you may not be able to access your data.
+See [https://wern.cc/app/personal-diary](https://wern.cc/app/personal-diary).
 
 ## Downloads
 ### Stable Release
