@@ -1,6 +1,29 @@
 # Personal Diary Changelog
 Version history for all stable releases (and the most recent beta) of Personal Diary.
 
+## Version 3.0.12
+- Improved: Loading all entries in a large journal is now up to 4 times faster, with up to 90% reduction in peak memory usage.
+- Improved: Search now displays a progress indicator, and you may now begin searching even if entries weren't fully loaded (you'll still need to wait for all entries to be loaded to have a complete result).
+- Improved: The app now automatically reduces its memory usage when your device is running low on memory (e.g., when multitasking with other apps).
+- Fixed: The app may crash on devices with limited memory when loading a large journal.
+- Fixed: The app may, in certain rare cases, crash when concurrently processing multiple tasks.
+- Fixed: The date range picker for journal exports may take an unexpectedly long time to be editable on large journals, even if they were already loaded in the Timeline.
+- Fixed: Keyboard shortcuts may not work correctly when your last interaction was not in the relevant view.
+- Fixed: The entry preview when using 3D / Haptic Touch may not show the correct entry while searching.
+- Fixed: The watchOS app long press menu may occasionally not show up, making certain options inaccessible.
+- Fixed: The watchOS app may fail to perform auto mood detection.
+- Misc: Updated app icon and dependencies.
+
+- Improved: [Only in Beta release] Calendar view should now be less buggy, and you can now type a specific day to jump to.
+
+## Version 3.0.11
+
+- Fixed: The image viewer may not work correctly for HEIC images on some systems.
+- Fixed: The image viewer now has dedicated buttons to export images. This was incorrectly removed.
+- Fixed: The export function no longer randomly resets the date range to export after explicitly modified when entries are being updated in the background.
+- Improved: The image viewer now supports keyboard navigation.
+- Misc: Updated dependencies.
+
 ## Version 3.0.10
 
 - Fixed: Hyperlinks and Strikethroughs did not save until other unrelated modifications have been done to trigger autosave.
